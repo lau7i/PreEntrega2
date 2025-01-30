@@ -178,7 +178,9 @@ label{
     color: white;
     grid-area: item1;
 }
-.item-1 h1{
+.item-1 h2{
+    background-color: black;
+    color: white;
     font-size: 40px;
 }
 .item-2{
@@ -189,8 +191,8 @@ label{
 .item-2 h2{
     font-size: 1.35rem
 }
-.iten-2 p{
-    font-size: 1.25rem;
+.item-2 p{
+    font-size: 1.4rem;
 }
 .item-3{
     background-color: darkblue;
@@ -220,8 +222,8 @@ background-repeat: no-repeat;
 .item-7 h2{
     font-size: 1.35rem
 }
-.iten-7 p{
-    font-size: 1.25rem;
+.item-7 p{
+    font-size: 1.5rem;
 }
 
 
@@ -236,6 +238,14 @@ input::placeholder{
 }
 input:focus{
     font-style: italic;
+}
+@media(max-width: 1440px){
+    .item-2 p{
+        font-size: 1.1rem;
+    }
+    .item-7 p{
+        font-size: 1.3rem;
+    }
 }
 @media(max-width: 1024px){
     body{
