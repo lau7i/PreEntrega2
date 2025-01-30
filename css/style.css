@@ -262,7 +262,9 @@ input:focus{
         grid-template-rows: repeat(2,1fr);
         margin-top: 10.25rem;
         margin-bottom: 10.25rem;
-
+    }
+    .grid-container{
+        width: fit-content;
     }
     .item-1{
         height: 100%;
@@ -275,7 +277,6 @@ input:focus{
     }
     .item-4{
         background-repeat: no-repeat;
-
     }
     .item-5{
         background-repeat: no-repeat;
@@ -284,6 +285,7 @@ input:focus{
         .item-7{
         height: 100%;
     }
+
 }
 @media(max-width: 768px){
 
