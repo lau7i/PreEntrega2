@@ -1,0 +1,32 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: map-get($colores , color2 );
+    color: map-get($colores , color3 );
+    font-size: 50px; ;
+    margin: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1:hover:after{
+    content:"🎮" ;
+}
+h1:hover::before{
+    content: "🎮";
+}
+
+div{
+    font-size: 25px;
+    color: map-get($colores , color2 );
+    margin: 15px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: map-get($colores , color3 );
+    text-align: center;
+}

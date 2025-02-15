@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    background-color: map-get($colores , color5 );
+    grid-template-columns: repeat(5,17.5rem);
+    grid-template-rows: repeat(2,2fr);
+    width: 98%;
+}
+.grid-item{
+    @include grid-i(map-get($colores , color3 ), 10px double  map-get($colores , color2 ),5px 5px,justify,center)
+}
+
+
+.grid-item img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}

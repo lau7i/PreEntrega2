@@ -1,0 +1,25 @@
+.grid-item11{
+    grid-column: 1 / 6;
+    grid-row: 3;
+}
+.grid-item11 h2{
+    background-color: map-get($colores , color3 );
+    text-align: center;
+    border: 5px solid  map-get($colores , color2 );
+    width: 88.75rem;
+} 
+.grid-item11 h3{
+    color: map-get($colores , color3 );
+    text-align: center;
+    width: 88.75rem;
+} 
+.grid-item11 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.grid-item11 button{
+    width: 88.75rem;
+    margin: 0;
+    padding: 0;
+}

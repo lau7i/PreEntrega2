@@ -1,0 +1,40 @@
+@media(max-width: 1024px){
+    body{
+        background-color: map-get($colores , color6 );
+
+    }
+    .enlaces{
+        width: fit-content;
+    }
+    .nav{
+        width: fit-content;
+    }
+    .container{
+        grid-template-rows: repeat(2,1fr);
+        margin-top: 10.25rem;
+        margin-bottom: 10.25rem;
+    }
+    .grid-container{
+        width: fit-content;
+    }
+    .item-1{
+        height: 100%;
+
+    }
+    .item-2{
+        height: 100%;
+
+
+    }
+    .item-4{
+        background-repeat: no-repeat;
+    }
+    .item-5{
+        background-repeat: no-repeat;
+
+    }
+        .item-7{
+        height: 100%;
+    }
+
+}

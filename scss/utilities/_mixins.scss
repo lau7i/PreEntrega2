@@ -1,0 +1,7 @@
+@mixin grid-i($bc,$borde,$padd,$align,$self){
+    background-color: $bc ;
+    border: $borde ;
+    padding: $padd ;
+    text-align: $align ;
+    align-self: $self ;
+}

@@ -1,0 +1,102 @@
+.enlaces{
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+.enlaces li{
+    margin: 0 45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.img{
+    width: 400px;
+    height: 170px;
+    box-shadow: 2px 2px 5px  map-get($colores , color2 );
+    object-fit: cover;
+}
+
+.p-i{
+    font-size: 18px;
+    text-align: center;
+}
+.nav{
+    background-color: map-get($colores , color5 );
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    border: 5px solid  map-get($colores , color2 );
+}
+.container{
+    display: grid;
+    width: 100%;
+    height: 28.25rem;
+
+    grid-template: 200px 200px /2fr repeat(4,1fr) ;
+    grid-template-areas: 
+    "item1 item2 item2 item3 item4"
+    "item1 item5 item6 item7 item7"
+    ;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+.item-1{
+    background-color: map-get($colores , color5 );
+    color: map-get($colores , color3 );
+    grid-area: item1;
+}
+.item-1 h2{
+    background-color: map-get($colores , color2 );
+    color: map-get($colores , color3 );
+    font-size: 40px;
+}
+.item-2{
+    background-color: map-get($colores , color5 );
+    grid-area: item2;
+    color: map-get($colores , color3 );
+}   
+.item-2 h2{
+    font-size: 1.35rem
+}
+.item-2 p{
+    font-size: 1.4rem;
+}
+.item-3{
+    background-color: map-get($colores , color5 );
+    grid-area: item3;
+    background-image: url(https://hb.imgix.net/be608a7251e3b40a0c3b233d40aa18ab5f7ec9a2.jpg?auto=compress,format&fit=crop&h=353&w=616&s=7eb7dce6eaf1200a1a38588b57640cee);
+}
+.item-4{
+
+    grid-area: item4;
+    background-image:url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWOGOIutMGWDiwCfhVgG1EAC0pmTbIc4dJg&s);
+background-repeat: no-repeat;
+}
+.item-5{
+    grid-area: item5;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9SC5bxSFRiL16GR11L8HMIuLjbksjOYdOA&s);
+}
+.item-6{
+    grid-area: item6;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXcYROBYssR-DXb0HdToaGAJEyctHGQM-bMg&s);
+background-repeat: no-repeat;
+}   
+.item-7{
+    @extend .item-2; 
+    grid-area: item7;
+}
+.item-7 h2{
+    font-size: 1.35rem
+}
+.item-7 p{
+    font-size: 1.5rem;
+}

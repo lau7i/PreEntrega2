@@ -1,0 +1,21 @@
+label{
+    font-size: 20px;
+}
+.ch{
+    font-size: 20px;
+}
+
+
+
+input{
+
+    padding-bottom: 5px;
+    border: 5px double  map-get($colores , color2 );
+    text-align: center;
+}
+input::placeholder{
+    color: map-get($colores , color2 );
+}
+input:focus{
+    font-style: italic;
+}

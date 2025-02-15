@@ -1,0 +1,12 @@
+
+body{
+    background-color: map-get($colores , color1 );
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body ::selection{
+    background-color:  map-get($colores , color2 );
+    color: map-get($colores , color4 );
+}
