@@ -146,8 +146,23 @@ span {
   background-color: black;
   color: white;
   font-size: 40px;
+  animation: change-color 5s infinite linear normal;
 }
 
+@keyframes change-color {
+  0% {
+    background: black;
+  }
+  50% {
+    background: darkblue;
+  }
+  75% {
+    background: blue;
+  }
+  100% {
+    background: lightblue;
+  }
+}
 .item-2, .item-7 {
   background-color: darkblue;
   grid-area: item2;
@@ -283,7 +298,7 @@ span {
 }
 @media (max-width: 1024px) {
   body {
-    background-color: burlywood;
+    background-color: blue;
   }
   .enlaces {
     width: fit-content;

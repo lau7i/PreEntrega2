@@ -58,6 +58,23 @@
     background-color: map-get($colores , color2 );
     color: map-get($colores , color3 );
     font-size: 40px;
+    animation:
+    change-color 5s infinite linear  normal ;
+
+}
+@keyframes change-color {
+0% {
+    background: black;
+}
+50%{
+    background: darkblue;
+}
+75%{
+    background: blue
+}
+100% {
+    background: lightblue;
+}
 }
 .item-2{
     background-color: map-get($colores , color5 );
