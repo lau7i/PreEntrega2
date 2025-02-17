@@ -107,6 +107,9 @@ span {
   box-shadow: 2px 2px 5px black;
   object-fit: cover;
 }
+.img:hover {
+  transform: scale(1.2);
+}
 
 .p-i {
   font-size: 18px;

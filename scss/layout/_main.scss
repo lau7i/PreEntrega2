@@ -15,6 +15,9 @@
     height: 170px;
     box-shadow: 2px 2px 5px  map-get($colores , color2 );
     object-fit: cover;
+    &:hover{
+        transform: scale(1.2);
+    }
 }
 
 .p-i{
